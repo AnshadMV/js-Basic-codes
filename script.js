@@ -370,3 +370,235 @@
 
 // console.log(reverseOfEachString("l love javascript"));
 // l evol tpircsavaj
+
+
+
+/*
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printPage() {
+  window.print();
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Print this page" onclick="printPage()" />
+
+</body>
+</html>
+
+*/
