@@ -77,6 +77,40 @@
 // console.log(countFrequency(["apple", "banana", "apple", "orange", "banana", "apple"]));
 // // { apple: 3, banana: 2, orange: 1 }
 
+
+// or
+// function countFrequency(arr) {
+//     let freq = {};
+//     let val = arr.split(" ");   // ✅ save the split result into an array of words
+//     for (let item of val) {     // ✅ iterate over words
+//         if (freq[item]) {
+//             freq[item]++;
+//         } else {
+//             freq[item] = 1;
+//         }
+//     }
+//     return freq;
+// }
+
+// console.log(countFrequency("apple banana apple orange banana apple"));
+
+
+// function countFrequency(arr) {
+//     let freq = {};
+//     arr.split(" ");   // ❌ split result is NOT stored
+//     for (let item of arr) {   // ❌ still looping over the original string
+//         if (freq[item]) {
+//             freq[item]++;
+//         } else {
+//             freq[item] = 1;
+//         }
+//     }
+//     return freq;
+// }
+
+// console.log(countFrequency("apple banana apple orange banana apple"));
+// { a: 10, p: 6, l: 3, e: 4, ' ': 5, b: 2, n: 5, o: 1, r: 1, g: 1 }
+
 // console.log(countFrequency(["cat", "dog", "cat", "bird", "dog", "dog"]));
 // // { cat: 2, dog: 3, bird: 1 }
 
@@ -217,7 +251,7 @@
 // }
 
 
-// or 
+// or
 // function sumObjectValues(obj) {
 //   let sum = 0;
 //   for (const value of Object.values(obj)) {
@@ -226,7 +260,7 @@
 //   return sum;
 // }
 
-// or 
+// or
 
 // function sumObjectValues(obj) {
 //   return Object.values(obj).reduce((acc, val) => acc + val, 0);
@@ -270,7 +304,7 @@
 //   for (let i = 1; i <= n; i++) {
 //     if (i % m === 0) sumDivisible += i;
 //     else sumNotDivisible += i;
-//   } 
+//   }
 
 //   return sumNotDivisible - sumDivisible;
 // }
@@ -301,3 +335,38 @@
 // // Examples
 // console.log(checkLastDigit("727"));  // Match
 // console.log(checkLastDigit("1234")); // Unique
+
+
+
+
+// function reverseofeachstring(val){
+//     let str=String(val)
+//     let r;
+//     let rev=str.split(" ")
+//     for ( let x of rev)
+//     {
+//         if (x==" ")
+//         {
+//             continue
+//         }
+//         else {
+//            r= rev.join("")
+//         }
+//     }
+//     return r;
+// }
+
+// console.log(reverseofeachstring("l love javascript"))
+
+// tpircsavaj evol l
+
+
+// function reverseOfEachString(val) {
+//     return val
+//         .split(" ")                    // split into words
+//         .map(word => word.split("").reverse().join(""))  // reverse each word
+//         .join(" ");                     // join back into a string
+// }
+
+// console.log(reverseOfEachString("l love javascript"));
+// l evol tpircsavaj
