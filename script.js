@@ -333,7 +333,7 @@
 // }
 
 // // Examples
-// console.log(checkLastDigit("727"));  // Match
+// console.log(checkLastDigit("782678"));  // Match
 // console.log(checkLastDigit("1234")); // Unique
 
 
@@ -370,3 +370,54 @@
 
 // console.log(reverseOfEachString("l love javascript"));
 // l evol tpircsavaj
+
+
+
+
+// 1.Find longest substring without repeating characters
+
+// Input: "abcabcbb" → Output: "abc" (length 3)
+
+// let str = "abcabcbb"
+// let longstr = ""
+// let set= new Set();
+// for (let i = 0; i < str.length; i++) {
+//     set+=str[i]
+// }
+// console.log(set)
+
+
+let str = "abcdabcbb"
+let temp = ""
+for (let i = 0; i < str.length; i++) {
+    if (!temp.includes(str[i])) {
+        temp += str[i]
+    }
+}
+console.log(temp)
+
+// for (let i = 0; i < str.length; i++) {
+
+//     longstr = str[i];
+//     for (let j = 1; j < str.length; j++) {
+//         if (str.includes) {
+//             longstr += str[j]
+//         }
+
+//     }
+// }
+// console.log(longstr);
+
+// 2.Check if two strings are anagrams
+// Input: "listen", "silent" → Output: true
+
+// let string1 = "listen"
+
+
+// let string2 = "silent"
+// let isanagrams = 0;
+// for (let i = 0; i < string2.length; i++) {
+//     isanagrams = string2.includes(string1[i])
+// }
+
+// console.log(isanagrams);
